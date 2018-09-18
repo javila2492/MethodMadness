@@ -44,4 +44,16 @@ public class JAvilaLib {
         }
         return false;
     }
+
+    public static boolean isPalindrome(String str)
+    {
+        String str2 = "";
+        for(int i = str.length() - 1; i > -1; i--)
+        {
+            str2 += str.substring(i, i + 1);
+        }
+        if (str.equals(str2))
+            return true;
+        return false;
+    }
 }

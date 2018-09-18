@@ -11,6 +11,7 @@ public class TestFile {
         System.out.println(cutOut("palindrome", "pal"));
         System.out.println(sumUpTo(3));
         System.out.println(isFibonacci(5));
+        System.out.println(isPalindrome("tacocat"));
     }
 
 }
