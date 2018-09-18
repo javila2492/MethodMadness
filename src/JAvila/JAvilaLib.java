@@ -30,4 +30,18 @@ public class JAvilaLib {
             total += i;
         return total;
     }
+
+    public static boolean isFibonacci(Integer num)
+    {
+        int check = 1;
+        int check2 = 0;
+        for(int check3 = 0;check < num; check = check3)
+        {
+            check3 = check + check2;
+            check2 = check;
+            if(check3 == num)
+                return true;
+        }
+        return false;
+    }
 }

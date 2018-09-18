@@ -10,6 +10,7 @@ public class TestFile {
         System.out.println(dateStr("6/21/2001"));
         System.out.println(cutOut("palindrome", "pal"));
         System.out.println(sumUpTo(3));
+        System.out.println(isFibonacci(5));
     }
 
 }
