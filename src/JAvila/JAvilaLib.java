@@ -22,4 +22,12 @@ public class JAvilaLib {
         int n = str1.indexOf(str2);
         return str1.substring(0, n) + str1.substring(n + str2.length());
     }
+
+    public static int sumUpTo(Integer num)
+    {
+        int total = 0;
+        for(int i = 0; i < num + 1; i++)
+            total += i;
+        return total;
+    }
 }

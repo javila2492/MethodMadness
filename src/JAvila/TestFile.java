@@ -1,8 +1,6 @@
 package JAvila;
 
-import static JAvila.JAvilaLib.cutOut;
-import static JAvila.JAvilaLib.dateStr;
-import static JAvila.JAvilaLib.println;
+import static JAvila.JAvilaLib.*;
 
 public class TestFile {
 
@@ -11,6 +9,7 @@ public class TestFile {
         println("I love");
         System.out.println(dateStr("6/21/2001"));
         System.out.println(cutOut("palindrome", "pal"));
+        System.out.println(sumUpTo(3));
     }
 
 }
