@@ -59,8 +59,9 @@ public class JAvilaLib {
 
     public static boolean isPalindrome(String str)
     {
-        /*reverses the string given and checks to see if it's equal or not by rebuilding it backwards using a for loop.*/
+        /*reverses and lowercases the string given and checks to see if it's equal or not by rebuilding it backwards using a for loop.*/
         String str2 = "";
+        str = str.toLowerCase();
         for(int i = str.length() - 1; i > -1; i--)
         {
             str2 += str.substring(i, i + 1);
